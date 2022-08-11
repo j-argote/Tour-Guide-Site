@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #1E2F23;
+    font-family: 'Merienda', cursive;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+#hero {
+    background-image: url("images/colorado.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content-container {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+#hero-title {
+    background-color: #1E2F23;
+    font-size: 32px;
+    margin: 122px auto 0px auto;
+    padding: 3px 12px;
+}
+
+#hero-subtitle {
+    background-color: #34623f;
+    font-size: 19px;
+    margin: 11px auto 119px auto;
+    padding: 5px 28px;
+}
+
+#activities {
+    background-color: #e9f5db;
+}
+
+.radius50 {
+    border-radius: 50px;
+}
+
+#activities-title {
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#activities-todo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-todo {
+    flex-basis: 198px;
+}
+
+#guide {
+    display: flex;
+    background-color: #ccd5ae;
+    margin: 50px 160px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1E2F23;
+}
+
+.guide-img {
+    height: 250px;
+    width: 180px;
+    margin: 23px 0px 23px 13px;
+    border-radius: 10px;
+}
+
+.guide-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 49px 4px 14px 4px;
+}
+
+.guide-info {
+    margin: 0px 11px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.guide-name{
+    font-weight: 700;
+    margin: 26px 11px 84px 11px;
+}
+
